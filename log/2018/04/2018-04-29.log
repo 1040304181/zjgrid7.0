@@ -1,0 +1,6 @@
+2018-04-29 14:04:52[my_question add]添加成功! sql_add3INSERT INTO `self_my_question` ( `my_name`, `my_file`, `my_some`, `my_biao`, `my_dengji`, `my_love`, `my_lovea`, `my_loveb`, `my_lovec`, `my_time`)values('12', '', '12', '', '', '编程', '唱歌;;编程;;', '维修风机', '唱歌;;', '2018-04-29 14:08:42')
+
+2018-04-29 14:04:40[my_question ==]请勿重复添加！
+
+2018-04-29 14:04:22[my_question ==]请勿重复添加！
+

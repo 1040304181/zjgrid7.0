@@ -1,0 +1,1418 @@
+ 2018-04-28 20:04:44 [form_easy ]my_name----姓名----char----[/form_easy]
+ 2018-04-28 20:04:44 [form_item ]<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:44 [biao_value ]my_name  姓名  char    [/biao_value]
+ 2018-04-28 20:04:44 [form_easy ]my_some----简介----varchar----[/form_easy]
+ 2018-04-28 20:04:44 [form_item ]<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:44 [biao_value ]my_some  简介  varchar    [/biao_value]
+ 2018-04-28 20:04:44 [form_easy ]my_biao----物资表----sheets----子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-[/form_easy]
+ 2018-04-28 20:04:44 [sheetoptions ]子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-[/sheetoptions]
+ 2018-04-28 20:04:44 [sheet_row ]子类型,type,select,风机;唱歌;编程;写作,[/sheet_row]
+ 2018-04-28 20:04:44 [value ]子名称,name,char,,[/value]
+ 2018-04-28 20:04:44 [sheet_tr 0]子名称[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 1]name[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 2]char[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:44 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td>[/text]
+ 2018-04-28 20:04:44 [value ]子数量,num,int,,[/value]
+ 2018-04-28 20:04:44 [sheet_tr 0]子数量[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 1]num[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 2]int[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:44 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td>[/text]
+ 2018-04-28 20:04:44 [value ]子金额,amount,double,,[/value]
+ 2018-04-28 20:04:44 [sheet_tr 0]子金额[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 1]amount[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 2]double[/sheet_tr]
+ 2018-04-28 20:04:44 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td>[/text]
+ 2018-04-28 20:04:45 [value ]子类型,type,select,风机;唱歌;编程;写作,[/value]
+ 2018-04-28 20:04:45 [sheet_tr 0]子类型[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1]type[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2]select[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3]风机;唱歌;编程;写作[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td>[/text]
+ 2018-04-28 20:04:45 [value ]子时间,time,datetime,,[/value]
+ 2018-04-28 20:04:45 [sheet_tr 0]子时间[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1]time[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2]datetime[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td>[/text]
+ 2018-04-28 20:04:45 [value ][/value]
+ 2018-04-28 20:04:45 [sheet_tr 0][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td>[/text]
+ 2018-04-28 20:04:45 [form_easy ]name----子名称----char----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="name">子名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]name 子名称 char  [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="name">子名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]num----子数量----int----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="num">子数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]num 子数量 int  [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="num">子数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]amount----子金额----double----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="amount">子金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]amount 子金额 double  [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="amount">子金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]type----子类型----select----风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="type">子类型：</label>
+	</td>
+	<td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]type 子类型 select 风机;唱歌;编程;写作 [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="type">子类型：</label>
+	</td>
+	<td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]time----子时间----datetime----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="time">子时间：</label>
+	</td>
+	<td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]time 子时间 datetime  [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="time">子时间：</label>
+	</td>
+	<td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]------------[/form_easy]
+ 2018-04-28 20:04:45 [form_item ][/form_item]
+ 2018-04-28 20:04:45 [tr ]    [/tr]
+ 2018-04-28 20:04:45 [str1 ][/str1]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td><td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [biao_value ]my_biao  物资表  sheets  子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-  [/biao_value]
+ 2018-04-28 20:04:45 [form_easy ]my_dengji----登记表----sheets----子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-[/form_easy]
+ 2018-04-28 20:04:45 [sheetoptions ]子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-[/sheetoptions]
+ 2018-04-28 20:04:45 [sheet_row ]子类型,type,select,风机;唱歌;编程;写作,[/sheet_row]
+ 2018-04-28 20:04:45 [value ]子名称,name,char,,[/value]
+ 2018-04-28 20:04:45 [sheet_tr 0]子名称[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1]name[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2]char[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td>[/text]
+ 2018-04-28 20:04:45 [value ]子数量,num,int,,[/value]
+ 2018-04-28 20:04:45 [sheet_tr 0]子数量[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1]num[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2]int[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td>[/text]
+ 2018-04-28 20:04:45 [value ]子金额,amount,double,,[/value]
+ 2018-04-28 20:04:45 [sheet_tr 0]子金额[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1]amount[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2]double[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td>[/text]
+ 2018-04-28 20:04:45 [value ]子类型,type,select,风机;唱歌;编程;写作,[/value]
+ 2018-04-28 20:04:45 [sheet_tr 0]子类型[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1]type[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2]select[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3]风机;唱歌;编程;写作[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td>[/text]
+ 2018-04-28 20:04:45 [value ]子时间,time,datetime,,[/value]
+ 2018-04-28 20:04:45 [sheet_tr 0]子时间[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1]time[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2]datetime[/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td>[/text]
+ 2018-04-28 20:04:45 [value ][/value]
+ 2018-04-28 20:04:45 [sheet_tr 0][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 1][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 2][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:45 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:45 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td>[/text]
+ 2018-04-28 20:04:45 [form_easy ]name----子名称----char----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="name">子名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]name 子名称 char  [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="name">子名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]num----子数量----int----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="num">子数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]num 子数量 int  [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="num">子数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]amount----子金额----double----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="amount">子金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]amount 子金额 double  [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="amount">子金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]type----子类型----select----风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="type">子类型：</label>
+	</td>
+	<td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]type 子类型 select 风机;唱歌;编程;写作 [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="type">子类型：</label>
+	</td>
+	<td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]time----子时间----datetime----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="time">子时间：</label>
+	</td>
+	<td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [tr ]time 子时间 datetime  [/tr]
+ 2018-04-28 20:04:45 [str1 ]<tr>
+	<td class="label"><label for="time">子时间：</label>
+	</td>
+	<td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:45 [form_easy ]------------[/form_easy]
+ 2018-04-28 20:04:45 [form_item ][/form_item]
+ 2018-04-28 20:04:45 [tr ]    [/tr]
+ 2018-04-28 20:04:45 [str1 ][/str1]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_dengji">登记表：</label>
+	</td>
+	<td><table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td><td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [biao_value ]my_dengji  登记表  sheets  子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-  [/biao_value]
+ 2018-04-28 20:04:45 [form_easy ]my_love----爱好----radio----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="radio" id="0" name="my_love" value="维修风机" /><label for="0">维修风机</label> 
+	<input type="radio" id="1" name="my_love" value="唱歌" /><label for="1">唱歌</label> 
+	<input type="radio" id="2" name="my_love" value="编程" /><label for="2">编程</label> 
+	<input type="radio" id="3" name="my_love" value="写作" /><label for="3">写作</label> 
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [biao_value ]my_love  爱好  radio  维修风机;唱歌;编程;写作  [/biao_value]
+ 2018-04-28 20:04:45 [form_easy ]my_lovea----爱好----checkbox----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_lovea">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_lovea[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_lovea[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_lovea[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_lovea[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [biao_value ]my_lovea  爱好  checkbox  维修风机;唱歌;编程;写作  [/biao_value]
+ 2018-04-28 20:04:45 [form_easy ]my_loveb----爱好----select----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_loveb">爱好：</label>
+	</td>
+	<td><select id="my_loveb" name="my_loveb">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [biao_value ]my_loveb  爱好  select  维修风机;唱歌;编程;写作  [/biao_value]
+ 2018-04-28 20:04:45 [form_easy ]my_lovec----爱好----selectmul----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_lovec">爱好：</label>
+	</td>
+	<td><select id="my_lovec" name="my_lovec[]" size="" multiple="multiple">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [biao_value ]my_lovec  爱好  selectmul  维修风机;唱歌;编程;写作  [/biao_value]
+ 2018-04-28 20:04:45 [form_easy ]my_time----时间----datetime----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_time">时间：</label>
+	</td>
+	<td><input type="text" name="my_time" id="my_time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [biao_value ]my_time  时间  datetime    [/biao_value]
+ 2018-04-28 20:04:45 [form_easy ]submit----提交----submit----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label">
+	</td>
+	<td><a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:80px">提交</a>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]ID----序号----char----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="ID">序号：</label>
+	</td>
+	<td><input type="text" name="ID" id="ID" value="<?php echo $newnums ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]my_name----姓名----char----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" value="<?php echo $row['my_name'] ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]my_file----文件----files----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_file">文件：</label>
+	</td>
+	<td><div  name="my_file"  class="up_load_file" id="my_file" ></div>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]my_some----简介----varchar----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"><?php echo $row['my_some'] ; ?></textarea>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]my_love----爱好----radio----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="radio" id="0" name="my_love" value="维修风机" /><label for="0">维修风机</label> 
+	<input type="radio" id="1" name="my_love" value="唱歌" /><label for="1">唱歌</label> 
+	<input type="radio" id="2" name="my_love" value="编程" /><label for="2">编程</label> 
+	<input type="radio" id="3" name="my_love" value="写作" /><label for="3">写作</label> 
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]my_lovea----爱好----checkbox----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_lovea">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_lovea[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_lovea[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_lovea[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_lovea[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]my_loveb----爱好----select----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_loveb">爱好：</label>
+	</td>
+	<td><select id="my_loveb" name="my_loveb">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]my_lovec----爱好----selectmul----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_lovec">爱好：</label>
+	</td>
+	<td><select id="my_lovec" name="my_lovec[]" size="" multiple="multiple">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]my_time----时间----datetime----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="my_time">时间：</label>
+	</td>
+	<td><input type="text" name="my_time" id="my_time" value="<?php echo $row['my_time'] ; ?>" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]submit----提交----submit----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label">
+	</td>
+	<td><a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:80px">提交</a>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [form_easy ]ID----序号----char----[/form_easy]
+ 2018-04-28 20:04:45 [form_item ]<tr>
+	<td class="label"><label for="ID">序号：</label>
+	</td>
+	<td><input type="text" name="ID" id="ID" value="<?php echo $id ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:45 [self_creat_form ]dataListNum:  新表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('测试', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('测试', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('测试', 'my_question','简介', 'my_some', 'varchar', '','', '0','1'),('测试', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('测试', 'my_question','登记表', 'my_dengji', 'sheets', '','', '0','1'),('测试', 'my_question','爱好', 'my_love', 'radio', '维修风机;唱歌;编程;写作','', '0','1'),('测试', 'my_question','爱好', 'my_lovea', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1'),('测试', 'my_question','爱好', 'my_loveb', 'select', '维修风机;唱歌;编程;写作','', '0','1'),('测试', 'my_question','爱好', 'my_lovec', 'selectmul', '维修风机;唱歌;编程;写作','', '0','1'),('测试', 'my_question','时间', 'my_time', 'datetime', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array子名称
+ Array子数量
+ Array子金额
+ Array子类型
+ Array子时间sheetListNum[3]:  新子表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`)values('测试', 'sheet_my_question','子名称', 'name', 'char', '', ''),('测试', 'sheet_my_question','子数量', 'num', 'int', '', ''),('测试', 'sheet_my_question','子金额', 'amount', 'double', '', ''),('测试', 'sheet_my_question','子类型', 'type', 'select', '风机;唱歌;编程;写作', ''),('测试', 'sheet_my_question','子时间', 'time', 'datetime', '', '')
+ 进入子表程序 11 sheetnum_4
+ Array表名称
+ Array表数量
+ Array表金额
+ Array表类型
+ Array表时间sheetListNum[4]:  新子表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`)values('测试', 'sheet_my_question','子名称', 'name', 'char', '', ''),('测试', 'sheet_my_question','子数量', 'num', 'int', '', ''),('测试', 'sheet_my_question','子金额', 'amount', 'double', '', ''),('测试', 'sheet_my_question','子类型', 'type', 'select', '风机;唱歌;编程;写作', ''),('测试', 'sheet_my_question','子时间', 'time', 'datetime', '', '')('测试', 'sheet_my_question','表名称', 'name', 'char', '', ''),('测试', 'sheet_my_question','表数量', 'num', 'int', '', ''),('测试', 'sheet_my_question','表金额', 'amount', 'double', '', ''),('测试', 'sheet_my_question','表类型', 'type', 'select', '风机;唱歌;编程;写作', ''),('测试', 'sheet_my_question','表时间', 'timeaaa', 'datetime', '', '')
+ 进入子表程序 11 sheetnum_5
+ 进入子表程序 11 sheetnum_6
+ 进入子表程序 11 sheetnum_7
+ 进入子表程序 11 sheetnum_8
+ 进入子表程序 11 sheetnum_9
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` varchar(1000) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_dengji` char(255) DEFAULT NULL  COMMENT '登记表', `my_love` char(255) DEFAULT NULL  COMMENT '爱好', `my_lovea` char(255) DEFAULT NULL  COMMENT '爱好', `my_loveb` char(255) DEFAULT NULL  COMMENT '爱好', `my_lovec` char(255) DEFAULT NULL  COMMENT '爱好', `my_time` datetime DEFAULT NULL  COMMENT '时间',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+name
+子名称
+
+num
+子数量
+
+amount
+子金额
+
+type
+子类型
+
+time
+子时间
+
+子表格未创建,可能表格已存在 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0(`name` char(255) DEFAULT NULL  COMMENT '子名称', `num` int(255) DEFAULT NULL  COMMENT '子数量', `amount` double DEFAULT NULL  COMMENT '子金额', `type` char(255) DEFAULT NULL  COMMENT '子类型', `time` datetime DEFAULT NULL  COMMENT '子时间',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+name
+表名称
+
+num
+表数量
+
+amount
+表金额
+
+type
+表类型
+
+timeaaa
+表时间
+
+子表格未创建,可能表格已存在 CREATE TABLE IF NOT EXISTS self_my_question_sheet_1(`name` char(255) DEFAULT NULL  COMMENT '表名称', `num` int(255) DEFAULT NULL  COMMENT '表数量', `amount` double DEFAULT NULL  COMMENT '表金额', `type` char(255) DEFAULT NULL  COMMENT '表类型', `timeaaa` datetime DEFAULT NULL  COMMENT '表时间',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td><td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-<tr>
+	<td class="label"><label for="my_dengji">登记表：</label>
+	</td>
+	<td><table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td><td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="radio" id="0" name="my_love" value="维修风机" /><label for="0">维修风机</label> 
+	<input type="radio" id="1" name="my_love" value="唱歌" /><label for="1">唱歌</label> 
+	<input type="radio" id="2" name="my_love" value="编程" /><label for="2">编程</label> 
+	<input type="radio" id="3" name="my_love" value="写作" /><label for="3">写作</label> 
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_lovea">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_lovea[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_lovea[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_lovea[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_lovea[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_loveb">爱好：</label>
+	</td>
+	<td><select id="my_loveb" name="my_loveb">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_lovec">爱好：</label>
+	</td>
+	<td><select id="my_lovec" name="my_lovec[]" size="" multiple="multiple">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_time">时间：</label>
+	</td>
+	<td><input type="text" name="my_time" id="my_time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]
+ 2018-04-28 20:04:14 [form_easy ]my_name----姓名----char----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_name  姓名  char    [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]my_some----简介----varchar----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_some  简介  varchar    [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]my_biao----物资表----sheets----子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-[/form_easy]
+ 2018-04-28 20:04:14 [sheetoptions ]子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-[/sheetoptions]
+ 2018-04-28 20:04:14 [sheet_row ]子类型,type,select,风机;唱歌;编程;写作,[/sheet_row]
+ 2018-04-28 20:04:14 [value ]子名称,name,char,,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子名称[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]name[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]char[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td>[/text]
+ 2018-04-28 20:04:14 [value ]子数量,num,int,,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子数量[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]num[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]int[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td>[/text]
+ 2018-04-28 20:04:14 [value ]子金额,amount,double,,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子金额[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]amount[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]double[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td>[/text]
+ 2018-04-28 20:04:14 [value ]子类型,type,select,风机;唱歌;编程;写作,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子类型[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]type[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]select[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3]风机;唱歌;编程;写作[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td>[/text]
+ 2018-04-28 20:04:14 [value ]子时间,time,datetime,,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子时间[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]time[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]datetime[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td>[/text]
+ 2018-04-28 20:04:14 [value ][/value]
+ 2018-04-28 20:04:14 [sheet_tr 0][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td>[/text]
+ 2018-04-28 20:04:14 [form_easy ]name----子名称----char----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="name">子名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]name 子名称 char  [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="name">子名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]num----子数量----int----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="num">子数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]num 子数量 int  [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="num">子数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]amount----子金额----double----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="amount">子金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]amount 子金额 double  [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="amount">子金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]type----子类型----select----风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="type">子类型：</label>
+	</td>
+	<td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]type 子类型 select 风机;唱歌;编程;写作 [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="type">子类型：</label>
+	</td>
+	<td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]time----子时间----datetime----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="time">子时间：</label>
+	</td>
+	<td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]time 子时间 datetime  [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="time">子时间：</label>
+	</td>
+	<td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]------------[/form_easy]
+ 2018-04-28 20:04:14 [form_item ][/form_item]
+ 2018-04-28 20:04:14 [tr ]    [/tr]
+ 2018-04-28 20:04:14 [str1 ][/str1]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td><td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_biao  物资表  sheets  子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-  [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]my_dengji----登记表----sheets----子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-[/form_easy]
+ 2018-04-28 20:04:14 [sheetoptions ]子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-[/sheetoptions]
+ 2018-04-28 20:04:14 [sheet_row ]子类型,type,select,风机;唱歌;编程;写作,[/sheet_row]
+ 2018-04-28 20:04:14 [value ]子名称,name,char,,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子名称[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]name[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]char[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td>[/text]
+ 2018-04-28 20:04:14 [value ]子数量,num,int,,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子数量[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]num[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]int[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td>[/text]
+ 2018-04-28 20:04:14 [value ]子金额,amount,double,,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子金额[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]amount[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]double[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td>[/text]
+ 2018-04-28 20:04:14 [value ]子类型,type,select,风机;唱歌;编程;写作,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子类型[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]type[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]select[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3]风机;唱歌;编程;写作[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td>[/text]
+ 2018-04-28 20:04:14 [value ]子时间,time,datetime,,[/value]
+ 2018-04-28 20:04:14 [sheet_tr 0]子时间[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1]time[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2]datetime[/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td>[/text]
+ 2018-04-28 20:04:14 [value ][/value]
+ 2018-04-28 20:04:14 [sheet_tr 0][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 1][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 2][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 3][/sheet_tr]
+ 2018-04-28 20:04:14 [sheet_tr 4][/sheet_tr]
+ 2018-04-28 20:04:14 [text]<table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td>[/text]
+ 2018-04-28 20:04:14 [form_easy ]name----子名称----char----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="name">子名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]name 子名称 char  [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="name">子名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]num----子数量----int----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="num">子数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]num 子数量 int  [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="num">子数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]amount----子金额----double----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="amount">子金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]amount 子金额 double  [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="amount">子金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]type----子类型----select----风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="type">子类型：</label>
+	</td>
+	<td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]type 子类型 select 风机;唱歌;编程;写作 [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="type">子类型：</label>
+	</td>
+	<td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]time----子时间----datetime----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="time">子时间：</label>
+	</td>
+	<td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [tr ]time 子时间 datetime  [/tr]
+ 2018-04-28 20:04:14 [str1 ]<tr>
+	<td class="label"><label for="time">子时间：</label>
+	</td>
+	<td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-28 20:04:14 [form_easy ]------------[/form_easy]
+ 2018-04-28 20:04:14 [form_item ][/form_item]
+ 2018-04-28 20:04:14 [tr ]    [/tr]
+ 2018-04-28 20:04:14 [str1 ][/str1]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_dengji">登记表：</label>
+	</td>
+	<td><table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td><td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_dengji  登记表  sheets  子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-  [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]my_love----爱好----radio----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="radio" id="0" name="my_love" value="维修风机" /><label for="0">维修风机</label> 
+	<input type="radio" id="1" name="my_love" value="唱歌" /><label for="1">唱歌</label> 
+	<input type="radio" id="2" name="my_love" value="编程" /><label for="2">编程</label> 
+	<input type="radio" id="3" name="my_love" value="写作" /><label for="3">写作</label> 
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_love  爱好  radio  维修风机;唱歌;编程;写作  [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]my_lovea----爱好----checkbox----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_lovea">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_lovea[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_lovea[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_lovea[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_lovea[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_lovea  爱好  checkbox  维修风机;唱歌;编程;写作  [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]my_loveb----爱好----select----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_loveb">爱好：</label>
+	</td>
+	<td><select id="my_loveb" name="my_loveb">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_loveb  爱好  select  维修风机;唱歌;编程;写作  [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]my_lovec----爱好----selectmul----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_lovec">爱好：</label>
+	</td>
+	<td><select id="my_lovec" name="my_lovec[]" size="" multiple="multiple">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_lovec  爱好  selectmul  维修风机;唱歌;编程;写作  [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]my_time----时间----datetime----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_time">时间：</label>
+	</td>
+	<td><input type="text" name="my_time" id="my_time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [biao_value ]my_time  时间  datetime    [/biao_value]
+ 2018-04-28 20:04:14 [form_easy ]submit----提交----submit----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label">
+	</td>
+	<td><a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:80px">提交</a>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]ID----序号----char----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="ID">序号：</label>
+	</td>
+	<td><input type="text" name="ID" id="ID" value="<?php echo $newnums ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]my_name----姓名----char----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" value="<?php echo $row['my_name'] ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]my_file----文件----files----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_file">文件：</label>
+	</td>
+	<td><div  name="my_file"  class="up_load_file" id="my_file" ></div>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]my_some----简介----varchar----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"><?php echo $row['my_some'] ; ?></textarea>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]my_love----爱好----radio----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="radio" id="0" name="my_love" value="维修风机" /><label for="0">维修风机</label> 
+	<input type="radio" id="1" name="my_love" value="唱歌" /><label for="1">唱歌</label> 
+	<input type="radio" id="2" name="my_love" value="编程" /><label for="2">编程</label> 
+	<input type="radio" id="3" name="my_love" value="写作" /><label for="3">写作</label> 
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]my_lovea----爱好----checkbox----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_lovea">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_lovea[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_lovea[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_lovea[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_lovea[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]my_loveb----爱好----select----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_loveb">爱好：</label>
+	</td>
+	<td><select id="my_loveb" name="my_loveb">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]my_lovec----爱好----selectmul----维修风机;唱歌;编程;写作[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_lovec">爱好：</label>
+	</td>
+	<td><select id="my_lovec" name="my_lovec[]" size="" multiple="multiple">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]my_time----时间----datetime----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="my_time">时间：</label>
+	</td>
+	<td><input type="text" name="my_time" id="my_time" value="<?php echo $row['my_time'] ; ?>" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]submit----提交----submit----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label">
+	</td>
+	<td><a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:80px">提交</a>
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [form_easy ]ID----序号----char----[/form_easy]
+ 2018-04-28 20:04:14 [form_item ]<tr>
+	<td class="label"><label for="ID">序号：</label>
+	</td>
+	<td><input type="text" name="ID" id="ID" value="<?php echo $id ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-04-28 20:04:14 [self_creat_form ]dataListNum:  新表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('测试', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('测试', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('测试', 'my_question','简介', 'my_some', 'varchar', '','', '0','1'),('测试', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('测试', 'my_question','登记表', 'my_dengji', 'sheets', '','', '0','1'),('测试', 'my_question','爱好', 'my_love', 'radio', '维修风机;唱歌;编程;写作','', '0','1'),('测试', 'my_question','爱好', 'my_lovea', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1'),('测试', 'my_question','爱好', 'my_loveb', 'select', '维修风机;唱歌;编程;写作','', '0','1'),('测试', 'my_question','爱好', 'my_lovec', 'selectmul', '维修风机;唱歌;编程;写作','', '0','1'),('测试', 'my_question','时间', 'my_time', 'datetime', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array子名称
+ Array子数量
+ Array子金额
+ Array子类型
+ Array子时间sheetListNum[3]:  新子表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`)values('测试', 'sheet_my_question','子名称', 'name', 'char', '', ''),('测试', 'sheet_my_question','子数量', 'num', 'int', '', ''),('测试', 'sheet_my_question','子金额', 'amount', 'double', '', ''),('测试', 'sheet_my_question','子类型', 'type', 'select', '风机;唱歌;编程;写作', ''),('测试', 'sheet_my_question','子时间', 'time', 'datetime', '', '')
+ 进入子表程序 11 sheetnum_4
+ Array表名称
+ Array表数量
+ Array表金额
+ Array表类型
+ Array表时间sheetListNum[4]:  新子表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`)values('测试', 'sheet_my_question','子名称', 'name', 'char', '', ''),('测试', 'sheet_my_question','子数量', 'num', 'int', '', ''),('测试', 'sheet_my_question','子金额', 'amount', 'double', '', ''),('测试', 'sheet_my_question','子类型', 'type', 'select', '风机;唱歌;编程;写作', ''),('测试', 'sheet_my_question','子时间', 'time', 'datetime', '', '')('测试', 'sheet_my_question','表名称', 'name', 'char', '', ''),('测试', 'sheet_my_question','表数量', 'num', 'int', '', ''),('测试', 'sheet_my_question','表金额', 'amount', 'double', '', ''),('测试', 'sheet_my_question','表类型', 'type', 'select', '风机;唱歌;编程;写作', ''),('测试', 'sheet_my_question','表时间', 'timeaaa', 'datetime', '', '')
+ 进入子表程序 11 sheetnum_5
+ 进入子表程序 11 sheetnum_6
+ 进入子表程序 11 sheetnum_7
+ 进入子表程序 11 sheetnum_8
+ 进入子表程序 11 sheetnum_9
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` varchar(1000) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_dengji` char(255) DEFAULT NULL  COMMENT '登记表', `my_love` char(255) DEFAULT NULL  COMMENT '爱好', `my_lovea` char(255) DEFAULT NULL  COMMENT '爱好', `my_loveb` char(255) DEFAULT NULL  COMMENT '爱好', `my_lovec` char(255) DEFAULT NULL  COMMENT '爱好', `my_time` datetime DEFAULT NULL  COMMENT '时间',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+name
+子名称
+
+num
+子数量
+
+amount
+子金额
+
+type
+子类型
+
+time
+子时间
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `name` char(255) DEFAULT NULL  COMMENT '子名称', `num` int(255) DEFAULT NULL  COMMENT '子数量', `amount` double DEFAULT NULL  COMMENT '子金额', `type` char(255) DEFAULT NULL  COMMENT '子类型', `time` datetime DEFAULT NULL  COMMENT '子时间',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+name
+表名称
+
+num
+表数量
+
+amount
+表金额
+
+type
+表类型
+
+timeaaa
+表时间
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_1( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `name` char(255) DEFAULT NULL  COMMENT '表名称', `num` int(255) DEFAULT NULL  COMMENT '表数量', `amount` double DEFAULT NULL  COMMENT '表金额', `type` char(255) DEFAULT NULL  COMMENT '表类型', `timeaaa` datetime DEFAULT NULL  COMMENT '表时间',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td><td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-<tr>
+	<td class="label"><label for="my_dengji">登记表：</label>
+	</td>
+	<td><table id='my_dengji' border ='1px'><tr><td>子名称</td><td>子数量</td><td>子金额</td><td>子类型</td><td>子时间</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="type" name="type">
+	<option value="风机">风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td><td><input type="text" name="time" id="time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+子名称,name,char,,-子数量,num,int,,-子金额,amount,double,,-子类型,type,select,风机;唱歌;编程;写作,-子时间,time,datetime,,-<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="radio" id="0" name="my_love" value="维修风机" /><label for="0">维修风机</label> 
+	<input type="radio" id="1" name="my_love" value="唱歌" /><label for="1">唱歌</label> 
+	<input type="radio" id="2" name="my_love" value="编程" /><label for="2">编程</label> 
+	<input type="radio" id="3" name="my_love" value="写作" /><label for="3">写作</label> 
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_lovea">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_lovea[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_lovea[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_lovea[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_lovea[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_loveb">爱好：</label>
+	</td>
+	<td><select id="my_loveb" name="my_loveb">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_lovec">爱好：</label>
+	</td>
+	<td><select id="my_lovec" name="my_lovec[]" size="" multiple="multiple">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_time">时间：</label>
+	</td>
+	<td><input type="text" name="my_time" id="my_time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]

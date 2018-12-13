@@ -1,0 +1,6 @@
+2018-04-28 19:04:06[my_question add]添加失败！ sql_add3INSERT INTO `self_my_question` ( `my_name`, `my_file`, `my_some`, `my_biao`, `my_note`, `my_love`, `my_lovea`, `my_loveb`, `my_lovec`, `my_time`)values('巨扩展', '', '我不知道  电影演的什么呀', '', '<p>13243<br/></p>', '编程', '唱歌;;编程;;', '编程', '写作;;', '2018-04-03 19:35:02')
+
+2018-04-28 19:04:14[my_question add]添加失败！ sql_add3INSERT INTO `self_my_question` ( `my_name`, `my_file`, `my_some`, `my_biao`, `my_note`, `my_love`, `my_lovea`, `my_loveb`, `my_lovec`, `my_time`)values('巨扩展', '', '我不知道  电影演的什么呀', '', '<p>13243<br/></p>', '编程', '唱歌;;编程;;', '编程', '写作;;', '2018-04-03 19:35:02')
+
+2018-04-28 19:04:23[my_question add]添加失败！ sql_add3INSERT INTO `self_my_question` ( `my_name`, `my_file`, `my_some`, `my_biao`, `my_note`, `my_love`, `my_lovea`, `my_loveb`, `my_lovec`, `my_time`)values('巨扩展', '', '我不知道  电影演的什么呀', '', '<p>13243<br/></p>', '编程', '唱歌;;编程;;', '编程', '写作;;', '2018-04-03 19:35:02')
+

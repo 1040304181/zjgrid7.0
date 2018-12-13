@@ -1,0 +1,6 @@
+2018-12-13 16:12:40[my_question add]添加成功! sql_add3INSERT INTO `self_my_question` ( `my_name`, `my_age`, `my_some`, `my_biao`, `my_note`)values('巨扩展', '12', '2342341325', '', '12')
+
+2018-12-13 16:12:07[my_question add]添加成功! sql_add3INSERT INTO `self_my_question` ( `my_name`, `my_age`, `my_some`, `my_biao`, `my_note`)values('巨扩展', '123', '13412', '', '1231')
+
+2018-12-13 16:12:04[my_question add]添加成功! sql_add3INSERT INTO `self_my_question` ( `my_name`, `my_age`, `my_some`, `my_biao`, `my_note`)values('巨扩展', '123', '123', '', '12')
+

@@ -1,0 +1,534 @@
+ 2018-02-25 22:02:05 [table ]1[/table]<br><br> 2018-02-25 22:02:05 [str1 ]<tr>
+	<td class="label"><label for="名称">my_sheet_name：</label>
+	</td>
+	<td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:05 [str ]<input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+<[/str]<br><br> 2018-02-25 22:02:05 [table ]1[/table]<br><br> 2018-02-25 22:02:05 [str1 ]<tr>
+	<td class="label"><label for="数量">my_sheet_num：</label>
+	</td>
+	<td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:05 [str ]<input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+<[/str]<br><br> 2018-02-25 22:02:05 [table ]1[/table]<br><br> 2018-02-25 22:02:05 [str1 ]<tr>
+	<td class="label"><label for="类型">my_sheet_type：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:05 [str ]
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+<[/str]<br><br> 2018-02-25 22:02:05 [table ]1[/table]<br><br> 2018-02-25 22:02:05 [str1 ][/str1]<br><br> 2018-02-25 22:02:05 [str ][/str]<br><br> 2018-02-25 22:02:05 [text ]<table id='my_biao'><th><td>名称</td><td>数量</td><td>类型</td><td></td></th><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+<</td><td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+<</td><td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+<</td><td></td></tr></table> [/text]<br><br> 2018-02-25 22:02:05 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷', 'my_questiona','姓名', 'my_name', 'char', '','', '0','1'),('问卷', 'my_questiona','文件', 'my_file', 'files', '','', '0','1'),('问卷', 'my_questiona','简介', 'my_some', 'int', '','', '0','1'),('问卷', 'my_questiona','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷', 'my_questiona','备注', 'my_note', 'varchar', '','', '0','1'),('问卷', 'my_questiona','爱好', 'my_love', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷', 'sheet_my_questiona','名称', 'my_sheet_name', 'char'),('问卷', 'sheet_my_questiona','数量', 'my_sheet_num', 'int'),('问卷', 'sheet_my_questiona','类型', 'my_sheet_type', 'checkbox')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` int(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` char(255) DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><input type="text" name="my_some" id="my_some" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao'><th><td>名称</td><td>数量</td><td>类型</td><td></td></th><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+<</td><td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+<</td><td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+<</td><td></td></tr></table> 
+	</td>
+</tr>
+名称,my_sheet_name,char;数量,my_sheet_num,int;类型,my_sheet_type,checkbox;<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><textarea id="my_note" name="my_note" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_love[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_love[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_love[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_love[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作
+生成：./self_creat_form/self_my_questiona_add.php
+生成：./self_creat_form/self_my_questiona_edit.php
+生成：./self_creat_form/self_my_questiona_app.php
+生成：./self_creat_form/self_my_questiona_grid.php
+生成：./self_creat_form/self_my_questiona_show_form.php
+目录存在
+生成：./self_creat_form/self_my_questiona_export.php[self_creat_form ]<br><br> 2018-02-25 22:02:42 [table ]1[/table]<br><br> 2018-02-25 22:02:42 [str1 ]<tr>
+	<td class="label"><label for="名称">my_sheet_name：</label>
+	</td>
+	<td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:42 [str ]<input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+<[/str]<br><br> 2018-02-25 22:02:42 [table ]1[/table]<br><br> 2018-02-25 22:02:42 [str1 ]<tr>
+	<td class="label"><label for="数量">my_sheet_num：</label>
+	</td>
+	<td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:42 [str ]<input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+<[/str]<br><br> 2018-02-25 22:02:42 [table ]1[/table]<br><br> 2018-02-25 22:02:42 [str1 ]<tr>
+	<td class="label"><label for="类型">my_sheet_type：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:42 [str ]
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+<[/str]<br><br> 2018-02-25 22:02:42 [table ]1[/table]<br><br> 2018-02-25 22:02:42 [str1 ][/str1]<br><br> 2018-02-25 22:02:42 [str ][/str]<br><br> 2018-02-25 22:02:42 [text ]<table id='my_biao'><th><td>名称</td><td>数量</td><td>类型</td><td></td></th><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+<<td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+<<td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+<<td></tr></table> [/text]<br><br> 2018-02-25 22:02:42 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷', 'my_questiona','姓名', 'my_name', 'char', '','', '0','1'),('问卷', 'my_questiona','文件', 'my_file', 'files', '','', '0','1'),('问卷', 'my_questiona','简介', 'my_some', 'int', '','', '0','1'),('问卷', 'my_questiona','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷', 'my_questiona','备注', 'my_note', 'varchar', '','', '0','1'),('问卷', 'my_questiona','爱好', 'my_love', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷', 'sheet_my_questiona','名称', 'my_sheet_name', 'char'),('问卷', 'sheet_my_questiona','数量', 'my_sheet_num', 'int'),('问卷', 'sheet_my_questiona','类型', 'my_sheet_type', 'checkbox')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` int(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` char(255) DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><input type="text" name="my_some" id="my_some" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao'><th><td>名称</td><td>数量</td><td>类型</td><td></td></th><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+<<td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+<<td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+<<td></tr></table> 
+	</td>
+</tr>
+名称,my_sheet_name,char;数量,my_sheet_num,int;类型,my_sheet_type,checkbox;<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><textarea id="my_note" name="my_note" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_love[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_love[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_love[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_love[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作
+生成：./self_creat_form/self_my_questiona_add.php
+生成：./self_creat_form/self_my_questiona_edit.php
+生成：./self_creat_form/self_my_questiona_app.php
+生成：./self_creat_form/self_my_questiona_grid.php
+生成：./self_creat_form/self_my_questiona_show_form.php
+目录存在
+生成：./self_creat_form/self_my_questiona_export.php[self_creat_form ]<br><br> 2018-02-25 22:02:51 [table ]1[/table]<br><br> 2018-02-25 22:02:51 [str1 ]<tr>
+	<td class="label"><label for="名称">my_sheet_name：</label>
+	</td>
+	<td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:51 [str ]<input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</[/str]<br><br> 2018-02-25 22:02:51 [table ]1[/table]<br><br> 2018-02-25 22:02:51 [str1 ]<tr>
+	<td class="label"><label for="数量">my_sheet_num：</label>
+	</td>
+	<td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:51 [str ]<input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</[/str]<br><br> 2018-02-25 22:02:51 [table ]1[/table]<br><br> 2018-02-25 22:02:51 [str1 ]<tr>
+	<td class="label"><label for="类型">my_sheet_type：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:51 [str ]
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</[/str]<br><br> 2018-02-25 22:02:51 [table ]1[/table]<br><br> 2018-02-25 22:02:51 [str1 ][/str1]<br><br> 2018-02-25 22:02:51 [str ][/str]<br><br> 2018-02-25 22:02:51 [text ]<table id='my_biao'><th><td>名称</td><td>数量</td><td>类型</td><td></td></th><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</</td><td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</</td><td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</</td><td></td></tr></table> [/text]<br><br> 2018-02-25 22:02:51 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷', 'my_questiona','姓名', 'my_name', 'char', '','', '0','1'),('问卷', 'my_questiona','文件', 'my_file', 'files', '','', '0','1'),('问卷', 'my_questiona','简介', 'my_some', 'int', '','', '0','1'),('问卷', 'my_questiona','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷', 'my_questiona','备注', 'my_note', 'varchar', '','', '0','1'),('问卷', 'my_questiona','爱好', 'my_love', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷', 'sheet_my_questiona','名称', 'my_sheet_name', 'char'),('问卷', 'sheet_my_questiona','数量', 'my_sheet_num', 'int'),('问卷', 'sheet_my_questiona','类型', 'my_sheet_type', 'checkbox')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` int(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` char(255) DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><input type="text" name="my_some" id="my_some" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao'><th><td>名称</td><td>数量</td><td>类型</td><td></td></th><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</</td><td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</</td><td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</</td><td></td></tr></table> 
+	</td>
+</tr>
+名称,my_sheet_name,char;数量,my_sheet_num,int;类型,my_sheet_type,checkbox;<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><textarea id="my_note" name="my_note" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_love[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_love[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_love[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_love[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作
+生成：./self_creat_form/self_my_questiona_add.php
+生成：./self_creat_form/self_my_questiona_edit.php
+生成：./self_creat_form/self_my_questiona_app.php
+生成：./self_creat_form/self_my_questiona_grid.php
+生成：./self_creat_form/self_my_questiona_show_form.php
+目录存在
+生成：./self_creat_form/self_my_questiona_export.php[self_creat_form ]<br><br> 2018-02-25 22:02:22 [table ]1[/table]<br><br> 2018-02-25 22:02:22 [str1 ]<tr>
+	<td class="label"><label for="名称">my_sheet_name：</label>
+	</td>
+	<td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:22 [str ]<input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	[/str]<br><br> 2018-02-25 22:02:22 [table ]1[/table]<br><br> 2018-02-25 22:02:22 [str1 ]<tr>
+	<td class="label"><label for="数量">my_sheet_num：</label>
+	</td>
+	<td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:22 [str ]<input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	[/str]<br><br> 2018-02-25 22:02:22 [table ]1[/table]<br><br> 2018-02-25 22:02:22 [str1 ]<tr>
+	<td class="label"><label for="类型">my_sheet_type：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:22 [str ]
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	[/str]<br><br> 2018-02-25 22:02:22 [table ]1[/table]<br><br> 2018-02-25 22:02:22 [str1 ][/str1]<br><br> 2018-02-25 22:02:22 [str ][/str]<br><br> 2018-02-25 22:02:22 [text ]<table id='my_biao'><th><td>名称</td><td>数量</td><td>类型</td><td></td></th><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td><td></td></tr></table> [/text]<br><br> 2018-02-25 22:02:22 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷', 'my_questiona','姓名', 'my_name', 'char', '','', '0','1'),('问卷', 'my_questiona','文件', 'my_file', 'files', '','', '0','1'),('问卷', 'my_questiona','简介', 'my_some', 'int', '','', '0','1'),('问卷', 'my_questiona','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷', 'my_questiona','备注', 'my_note', 'varchar', '','', '0','1'),('问卷', 'my_questiona','爱好', 'my_love', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷', 'sheet_my_questiona','名称', 'my_sheet_name', 'char'),('问卷', 'sheet_my_questiona','数量', 'my_sheet_num', 'int'),('问卷', 'sheet_my_questiona','类型', 'my_sheet_type', 'checkbox')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` int(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` char(255) DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><input type="text" name="my_some" id="my_some" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao'><th><td>名称</td><td>数量</td><td>类型</td><td></td></th><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+名称,my_sheet_name,char;数量,my_sheet_num,int;类型,my_sheet_type,checkbox;<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><textarea id="my_note" name="my_note" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_love[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_love[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_love[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_love[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作
+生成：./self_creat_form/self_my_questiona_add.php
+生成：./self_creat_form/self_my_questiona_edit.php
+生成：./self_creat_form/self_my_questiona_app.php
+生成：./self_creat_form/self_my_questiona_grid.php
+生成：./self_creat_form/self_my_questiona_show_form.php
+目录存在
+生成：./self_creat_form/self_my_questiona_export.php[self_creat_form ]<br><br> 2018-02-25 22:02:05 [table ]1[/table]<br><br> 2018-02-25 22:02:05 [str1 ]<tr>
+	<td class="label"><label for="名称">my_sheet_name：</label>
+	</td>
+	<td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:05 [str ]<input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	[/str]<br><br> 2018-02-25 22:02:05 [table ]1[/table]<br><br> 2018-02-25 22:02:05 [str1 ]<tr>
+	<td class="label"><label for="数量">my_sheet_num：</label>
+	</td>
+	<td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:05 [str ]<input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	[/str]<br><br> 2018-02-25 22:02:05 [table ]1[/table]<br><br> 2018-02-25 22:02:05 [str1 ]<tr>
+	<td class="label"><label for="类型">my_sheet_type：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td>
+</tr>
+[/str1]<br><br> 2018-02-25 22:02:05 [str ]
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	[/str]<br><br> 2018-02-25 22:02:05 [table ]1[/table]<br><br> 2018-02-25 22:02:05 [str1 ][/str1]<br><br> 2018-02-25 22:02:05 [str ][/str]<br><br> 2018-02-25 22:02:05 [text ]<table id='my_biao'><tr><td>名称</td><td>数量</td><td>类型</td><td></td></tr><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td><td></td></tr></table> [/text]<br><br> 2018-02-25 22:02:05 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷', 'my_questiona','姓名', 'my_name', 'char', '','', '0','1'),('问卷', 'my_questiona','文件', 'my_file', 'files', '','', '0','1'),('问卷', 'my_questiona','简介', 'my_some', 'int', '','', '0','1'),('问卷', 'my_questiona','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷', 'my_questiona','备注', 'my_note', 'varchar', '','', '0','1'),('问卷', 'my_questiona','爱好', 'my_love', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷', 'sheet_my_questiona','名称', 'my_sheet_name', 'char'),('问卷', 'sheet_my_questiona','数量', 'my_sheet_num', 'int'),('问卷', 'sheet_my_questiona','类型', 'my_sheet_type', 'checkbox')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` int(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` char(255) DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_questiona_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><input type="text" name="my_some" id="my_some" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao'><tr><td>名称</td><td>数量</td><td>类型</td><td></td></tr><tr><td><input type="text" name="名称" id="名称" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="数量" id="数量" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td>
+	<input type="checkbox" id="0" name="类型[]" value="" /><label for="0"></label>
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+名称,my_sheet_name,char;数量,my_sheet_num,int;类型,my_sheet_type,checkbox;<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><textarea id="my_note" name="my_note" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_love[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_love[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_love[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_love[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作
+生成：./self_creat_form/self_my_questiona_add.php
+生成：./self_creat_form/self_my_questiona_edit.php
+生成：./self_creat_form/self_my_questiona_app.php
+生成：./self_creat_form/self_my_questiona_grid.php
+生成：./self_creat_form/self_my_questiona_show_form.php
+目录存在
+生成：./self_creat_form/self_my_questiona_export.php[self_creat_form ]<br><br>

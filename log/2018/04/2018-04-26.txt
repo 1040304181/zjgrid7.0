@@ -1,0 +1,384 @@
+ 2018-04-26 18:04:44 [name ]my_biao[/name]
+ 2018-04-26 18:04:44 [biao_value ]名称,my_sheet_name,char[/biao_value]
+ 2018-04-26 18:04:44 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_name">名称：</label>
+	</td>
+	<td><input type="text" name="my_sheet_name" id="my_sheet_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:44 [biao_value ]数量,my_sheet_num,double[/biao_value]
+ 2018-04-26 18:04:44 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_num">数量：</label>
+	</td>
+	<td><input type="text" name="my_sheet_num" id="my_sheet_num" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:44 [biao_value ]类型,my_sheet_type,select[/biao_value]
+ 2018-04-26 18:04:44 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_type">类型：</label>
+	</td>
+	<td><select id="my_sheet_type" name="my_sheet_type">
+	<option value="" selected="selected"></option>
+</select>
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:44 [biao_value ]单价,my_sheet_price,double[/biao_value]
+ 2018-04-26 18:04:44 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_price">单价：</label>
+	</td>
+	<td><input type="text" name="my_sheet_price" id="my_sheet_price" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:44 [biao_value ]金额,my_sheet_amount,double[/biao_value]
+ 2018-04-26 18:04:44 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_amount">金额：</label>
+	</td>
+	<td><input type="text" name="my_sheet_amount" id="my_sheet_amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:44 [biao_value ]日期,my_sheet_datetime,datetime[/biao_value]
+ 2018-04-26 18:04:44 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_datetime">日期：</label>
+	</td>
+	<td><input type="text" name="my_sheet_datetime" id="my_sheet_datetime" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:44 [biao_value ][/biao_value]
+ 2018-04-26 18:04:44 [str1 ][/str1]
+ 2018-04-26 18:04:44 [self_creat_form ]dataListNum:  新表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷', 'my_question','姓名', 'my_name', 'char', '','默认值', '0','1'),('问卷', 'my_question','年龄', 'my_age', 'int', '','28', '0','1'),('问卷', 'my_question','文件', 'my_file', 'files', '','我真的爱你', '0','1'),('问卷', 'my_question','物资表', 'my_biao', 'sheets', '','2018-04-26 17:15:08', '0','1'),('问卷', 'my_question','备注', 'my_note', 'mediumtext', '','好的', '0','1'),('问卷', 'my_question','爱好', 'my_love', 'radio', '维修风机;唱歌;编程;写作','', '0','1'),('问卷', 'my_question','爱好', 'my_lovea', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1'),('问卷', 'my_question','爱好', 'my_loveb', 'select', '维修风机;唱歌;编程;写作','', '0','1'),('问卷', 'my_question','爱好', 'my_lovec', 'selectmul', '维修风机;唱歌;编程;写作','', '0','1'),('问卷', 'my_question','时间', 'my_time', 'datetime', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型
+ Array单价
+ Array金额
+ Array日期已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷', 'sheet_my_question','数量', 'my_sheet_num', 'double'),('问卷', 'sheet_my_question','类型', 'my_sheet_type', 'select'),('问卷', 'sheet_my_question','单价', 'my_sheet_price', 'double'),('问卷', 'sheet_my_question','金额', 'my_sheet_amount', 'double'),('问卷', 'sheet_my_question','日期', 'my_sheet_datetime', 'datetime')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+ 进入子表程序 11 sheetnum_6
+ 进入子表程序 11 sheetnum_7
+ 进入子表程序 11 sheetnum_8
+ 进入子表程序 11 sheetnum_9
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_age` int(255) DEFAULT NULL  COMMENT '年龄', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` mediumtext DEFAULT NULL  COMMENT '备注', `my_love` char(255) DEFAULT NULL  COMMENT '爱好', `my_lovea` char(255) DEFAULT NULL  COMMENT '爱好', `my_loveb` char(255) DEFAULT NULL  COMMENT '爱好', `my_lovec` char(255) DEFAULT NULL  COMMENT '爱好', `my_time` datetime DEFAULT NULL  COMMENT '时间',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+my_sheet_price
+单价
+
+my_sheet_amount
+金额
+
+my_sheet_datetime
+日期
+
+子表格未创建,可能表格已存在 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` double() DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型', `my_sheet_price` double() DEFAULT NULL  COMMENT '单价', `my_sheet_amount` double() DEFAULT NULL  COMMENT '金额', `my_sheet_datetime` datetime() DEFAULT NULL  COMMENT '日期',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" value="<?php echo 默认值 ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_age">年龄：</label>
+	</td>
+	<td><input type="text" name="my_age" id="my_age" value="<?php echo 28 ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao'><tr><td>名称</td><td>数量</td><td>类型</td><td>单价</td><td>金额</td><td>日期</td><td></td></tr><tr><td><input type="text" name="my_sheet_name" id="my_sheet_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="my_sheet_num" id="my_sheet_num" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="my_sheet_type" name="my_sheet_type">
+	<option value="" selected="selected"></option>
+</select>
+	</td><td><input type="text" name="my_sheet_price" id="my_sheet_price" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><input type="text" name="my_sheet_amount" id="my_sheet_amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><input type="text" name="my_sheet_datetime" id="my_sheet_datetime" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+名称,my_sheet_name,char;数量,my_sheet_num,double;类型,my_sheet_type,select;单价,my_sheet_price,double;金额,my_sheet_amount,double;日期,my_sheet_datetime,datetime;<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><textarea id="my_note" name="my_note" style="width:800px;height:200px;"><?php echo 好的 ; ?></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="radio" id="0" name="my_love" value="维修风机" /><label for="0">维修风机</label> 
+	<input type="radio" id="1" name="my_love" value="唱歌" /><label for="1">唱歌</label> 
+	<input type="radio" id="2" name="my_love" value="编程" /><label for="2">编程</label> 
+	<input type="radio" id="3" name="my_love" value="写作" /><label for="3">写作</label> 
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_lovea">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_lovea[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_lovea[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_lovea[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_lovea[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_loveb">爱好：</label>
+	</td>
+	<td><select id="my_loveb" name="my_loveb">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_lovec">爱好：</label>
+	</td>
+	<td><select id="my_lovec" name="my_lovec[]" size="" multiple="multiple">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_time">时间：</label>
+	</td>
+	<td><input type="text" name="my_time" id="my_time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]
+ 2018-04-26 18:04:19 [name ]my_biao[/name]
+ 2018-04-26 18:04:19 [biao_value ]名称,my_sheet_name,char[/biao_value]
+ 2018-04-26 18:04:19 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_name">名称：</label>
+	</td>
+	<td><input type="text" name="my_sheet_name" id="my_sheet_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:19 [biao_value ]数量,my_sheet_num,double[/biao_value]
+ 2018-04-26 18:04:19 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_num">数量：</label>
+	</td>
+	<td><input type="text" name="my_sheet_num" id="my_sheet_num" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:19 [biao_value ]类型,my_sheet_type,select[/biao_value]
+ 2018-04-26 18:04:19 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_type">类型：</label>
+	</td>
+	<td><select id="my_sheet_type" name="my_sheet_type">
+	<option value="" selected="selected"></option>
+</select>
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:19 [biao_value ]单价,my_sheet_price,double[/biao_value]
+ 2018-04-26 18:04:19 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_price">单价：</label>
+	</td>
+	<td><input type="text" name="my_sheet_price" id="my_sheet_price" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:19 [biao_value ]金额,my_sheet_amount,double[/biao_value]
+ 2018-04-26 18:04:19 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_amount">金额：</label>
+	</td>
+	<td><input type="text" name="my_sheet_amount" id="my_sheet_amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:19 [biao_value ]日期,my_sheet_datetime,datetime[/biao_value]
+ 2018-04-26 18:04:19 [str1 ]<tr>
+	<td class="label"><label for="my_sheet_datetime">日期：</label>
+	</td>
+	<td><input type="text" name="my_sheet_datetime" id="my_sheet_datetime" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-04-26 18:04:19 [biao_value ][/biao_value]
+ 2018-04-26 18:04:19 [str1 ][/str1]
+ 2018-04-26 18:04:19 [self_creat_form ]dataListNum:  新表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷', 'my_question','姓名', 'my_name', 'char', '','默认值', '0','1'),('问卷', 'my_question','年龄', 'my_age', 'int', '','28', '0','1'),('问卷', 'my_question','文件', 'my_file', 'files', '','我真的爱你', '0','1'),('问卷', 'my_question','物资表', 'my_biao', 'sheets', '','2018-04-26 17:15:08', '0','1'),('问卷', 'my_question','备注', 'my_note', 'mediumtext', '','好的', '0','1'),('问卷', 'my_question','爱好', 'my_love', 'radio', '维修风机;唱歌;编程;写作','', '0','1'),('问卷', 'my_question','爱好', 'my_lovea', 'checkbox', '维修风机;唱歌;编程;写作','', '0','1'),('问卷', 'my_question','爱好', 'my_loveb', 'select', '维修风机;唱歌;编程;写作','', '0','1'),('问卷', 'my_question','爱好', 'my_lovec', 'selectmul', '维修风机;唱歌;编程;写作','', '0','1'),('问卷', 'my_question','时间', 'my_time', 'datetime', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型
+ Array单价
+ Array金额
+ Array日期已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷', 'sheet_my_question','数量', 'my_sheet_num', 'double'),('问卷', 'sheet_my_question','类型', 'my_sheet_type', 'select'),('问卷', 'sheet_my_question','单价', 'my_sheet_price', 'double'),('问卷', 'sheet_my_question','金额', 'my_sheet_amount', 'double'),('问卷', 'sheet_my_question','日期', 'my_sheet_datetime', 'datetime')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+ 进入子表程序 11 sheetnum_6
+ 进入子表程序 11 sheetnum_7
+ 进入子表程序 11 sheetnum_8
+ 进入子表程序 11 sheetnum_9
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_age` int(255) DEFAULT NULL  COMMENT '年龄', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` mediumtext DEFAULT NULL  COMMENT '备注', `my_love` char(255) DEFAULT NULL  COMMENT '爱好', `my_lovea` char(255) DEFAULT NULL  COMMENT '爱好', `my_loveb` char(255) DEFAULT NULL  COMMENT '爱好', `my_lovec` char(255) DEFAULT NULL  COMMENT '爱好', `my_time` datetime DEFAULT NULL  COMMENT '时间',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+my_sheet_price
+单价
+
+my_sheet_amount
+金额
+
+my_sheet_datetime
+日期
+
+子表格未创建,可能表格已存在 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` double() DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型', `my_sheet_price` double() DEFAULT NULL  COMMENT '单价', `my_sheet_amount` double() DEFAULT NULL  COMMENT '金额', `my_sheet_datetime` datetime() DEFAULT NULL  COMMENT '日期',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" value="<?php echo 默认值 ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_age">年龄：</label>
+	</td>
+	<td><input type="text" name="my_age" id="my_age" value="<?php echo 28 ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao'><tr><td>名称</td><td>数量</td><td>类型</td><td>单价</td><td>金额</td><td>日期</td><td></td></tr><tr><td><input type="text" name="my_sheet_name" id="my_sheet_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="my_sheet_num" id="my_sheet_num" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><select id="my_sheet_type" name="my_sheet_type">
+	<option value="" selected="selected"></option>
+</select>
+	</td><td><input type="text" name="my_sheet_price" id="my_sheet_price" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><input type="text" name="my_sheet_amount" id="my_sheet_amount" class=" easyui-validatebox tb" data-options="required:true,validType:'xiaoshu'"/>
+
+	</td><td><input type="text" name="my_sheet_datetime" id="my_sheet_datetime" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+名称,my_sheet_name,char;数量,my_sheet_num,double;类型,my_sheet_type,select;单价,my_sheet_price,double;金额,my_sheet_amount,double;日期,my_sheet_datetime,datetime;<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><textarea id="my_note" name="my_note" style="width:800px;height:200px;"><?php echo 好的 ; ?></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td>
+	<input type="radio" id="0" name="my_love" value="维修风机" /><label for="0">维修风机</label> 
+	<input type="radio" id="1" name="my_love" value="唱歌" /><label for="1">唱歌</label> 
+	<input type="radio" id="2" name="my_love" value="编程" /><label for="2">编程</label> 
+	<input type="radio" id="3" name="my_love" value="写作" /><label for="3">写作</label> 
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_lovea">爱好：</label>
+	</td>
+	<td>
+	<input type="checkbox" id="0" name="my_lovea[]" value="维修风机" /><label for="0">维修风机</label>
+	<input type="checkbox" id="1" name="my_lovea[]" value="唱歌" /><label for="1">唱歌</label>
+	<input type="checkbox" id="2" name="my_lovea[]" value="编程" /><label for="2">编程</label>
+	<input type="checkbox" id="3" name="my_lovea[]" value="写作" /><label for="3">写作</label>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_loveb">爱好：</label>
+	</td>
+	<td><select id="my_loveb" name="my_loveb">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_lovec">爱好：</label>
+	</td>
+	<td><select id="my_lovec" name="my_lovec[]" size="" multiple="multiple">
+	<option value="维修风机">维修风机</option>
+	<option value="唱歌">唱歌</option>
+	<option value="编程">编程</option>
+	<option value="写作">写作</option>
+</select>
+
+	</td>
+</tr>
+维修风机;唱歌;编程;写作<tr>
+	<td class="label"><label for="my_time">时间：</label>
+	</td>
+	<td><input type="text" name="my_time" id="my_time" required="required"  editable="false" class=" easyui-datetimebox"/>
+
+	</td>
+</tr>
+
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]

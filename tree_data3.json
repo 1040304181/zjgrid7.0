@@ -1,0 +1,16 @@
+[
+{
+    "id": 1,
+    "text": "\u62db\u6807",
+    "children": [
+    {
+        "id": 11,
+        "text": "\u62db\u6807\u589e\u52a0",
+        "url": "self_creat_form\/self_my_tender_add.php"
+    },
+    {
+        "id": 12,
+        "text": "\u62db\u6807\u7edf\u8ba1",
+        "url": "self_creat_form\/self_my_tender_grid.php"
+    }]
+}]

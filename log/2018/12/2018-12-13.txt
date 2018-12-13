@@ -1,0 +1,435 @@
+<meta charset='UTF-8'>2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]2018-12-13 16:12:40[biao_value ]my_name  姓名  char    [/biao_value]
+ 2018-12-13 16:12:40 [biao_value ]my_name  姓名  char    [/biao_value]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_age">年龄：</label>
+	</td>
+	<td><input type="text" name="my_age" id="my_age" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="my_age">年龄：</label>
+	</td>
+	<td><input type="text" name="my_age" id="my_age" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[biao_value ]my_age  年龄  int    [/biao_value]
+ 2018-12-13 16:12:40 [biao_value ]my_age  年龄  int    [/biao_value]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[biao_value ]my_some  简介  varchar    [/biao_value]
+ 2018-12-13 16:12:40 [biao_value ]my_some  简介  varchar    [/biao_value]
+2018-12-13 16:12:40[sheetoptions ]名称,name,char,,-数量,num,int,,-金额,amount,int,,-[/sheetoptions]
+ 2018-12-13 16:12:40 [sheetoptions ]名称,name,char,,-数量,num,int,,-金额,amount,int,,-[/sheetoptions]
+2018-12-13 16:12:40[sheet_row ][/sheet_row]
+ 2018-12-13 16:12:40 [sheet_row ][/sheet_row]
+2018-12-13 16:12:40[value ]名称,name,char,,[/value]
+ 2018-12-13 16:12:40 [value ]名称,name,char,,[/value]
+2018-12-13 16:12:40[sheet_tr 0]名称[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 0]名称[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 1]name[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 1]name[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 2]char[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 2]char[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 3][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 3][/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 4][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 4][/sheet_tr]
+2018-12-13 16:12:40[text]<table id='my_biao' border ='1px'><tr><td>名称</td>[/text]
+ 2018-12-13 16:12:40 [text]<table id='my_biao' border ='1px'><tr><td>名称</td>[/text]
+2018-12-13 16:12:40[value ]数量,num,int,,[/value]
+ 2018-12-13 16:12:40 [value ]数量,num,int,,[/value]
+2018-12-13 16:12:40[sheet_tr 0]数量[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 0]数量[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 1]num[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 1]num[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 2]int[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 2]int[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 3][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 3][/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 4][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 4][/sheet_tr]
+2018-12-13 16:12:40[text]<table id='my_biao' border ='1px'><tr><td>名称</td><td>数量</td>[/text]
+ 2018-12-13 16:12:40 [text]<table id='my_biao' border ='1px'><tr><td>名称</td><td>数量</td>[/text]
+2018-12-13 16:12:40[value ]金额,amount,int,,[/value]
+ 2018-12-13 16:12:40 [value ]金额,amount,int,,[/value]
+2018-12-13 16:12:40[sheet_tr 0]金额[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 0]金额[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 1]amount[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 1]amount[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 2]int[/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 2]int[/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 3][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 3][/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 4][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 4][/sheet_tr]
+2018-12-13 16:12:40[text]<table id='my_biao' border ='1px'><tr><td>名称</td><td>数量</td><td>金额</td>[/text]
+ 2018-12-13 16:12:40 [text]<table id='my_biao' border ='1px'><tr><td>名称</td><td>数量</td><td>金额</td>[/text]
+2018-12-13 16:12:40[value ][/value]
+ 2018-12-13 16:12:40 [value ][/value]
+2018-12-13 16:12:40[sheet_tr 0][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 0][/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 1][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 1][/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 2][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 2][/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 3][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 3][/sheet_tr]
+2018-12-13 16:12:40[sheet_tr 4][/sheet_tr]
+ 2018-12-13 16:12:40 [sheet_tr 4][/sheet_tr]
+2018-12-13 16:12:40[text]<table id='my_biao' border ='1px'><tr><td>名称</td><td>数量</td><td>金额</td><td></td>[/text]
+ 2018-12-13 16:12:40 [text]<table id='my_biao' border ='1px'><tr><td>名称</td><td>数量</td><td>金额</td><td></td>[/text]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="name">名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="name">名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[tr ]name 名称 char  [/tr]
+ 2018-12-13 16:12:40 [tr ]name 名称 char  [/tr]
+2018-12-13 16:12:40[str1 ]<tr>
+	<td class="label"><label for="name">名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-12-13 16:12:40 [str1 ]<tr>
+	<td class="label"><label for="name">名称：</label>
+	</td>
+	<td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/str1]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="num">数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="num">数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[tr ]num 数量 int  [/tr]
+ 2018-12-13 16:12:40 [tr ]num 数量 int  [/tr]
+2018-12-13 16:12:40[str1 ]<tr>
+	<td class="label"><label for="num">数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-12-13 16:12:40 [str1 ]<tr>
+	<td class="label"><label for="num">数量：</label>
+	</td>
+	<td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="amount">金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="amount">金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[tr ]amount 金额 int  [/tr]
+ 2018-12-13 16:12:40 [tr ]amount 金额 int  [/tr]
+2018-12-13 16:12:40[str1 ]<tr>
+	<td class="label"><label for="amount">金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]
+ 2018-12-13 16:12:40 [str1 ]<tr>
+	<td class="label"><label for="amount">金额：</label>
+	</td>
+	<td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/str1]
+2018-12-13 16:12:40[form_item ][/form_item]
+ 2018-12-13 16:12:40 [form_item ][/form_item]
+2018-12-13 16:12:40[tr ]    [/tr]
+ 2018-12-13 16:12:40 [tr ]    [/tr]
+2018-12-13 16:12:40[str1 ][/str1]
+ 2018-12-13 16:12:40 [str1 ][/str1]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao' border ='1px'><tr><td>名称</td><td>数量</td><td>金额</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao' border ='1px'><tr><td>名称</td><td>数量</td><td>金额</td><td></td></tr><tr><td><input type="text" name="name" id="name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td><td><input type="text" name="num" id="num" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td><input type="text" name="amount" id="amount" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td><td></td></tr></table> 
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[biao_value ]my_biao  物资表  sheets  名称,name,char,,-数量,num,int,,-金额,amount,int,,-  [/biao_value]
+ 2018-12-13 16:12:40 [biao_value ]my_biao  物资表  sheets  名称,name,char,,-数量,num,int,,-金额,amount,int,,-  [/biao_value]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><input type="text" name="my_note" id="my_note" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><input type="text" name="my_note" id="my_note" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[biao_value ]my_note  备注  int    [/biao_value]
+ 2018-12-13 16:12:40 [biao_value ]my_note  备注  int    [/biao_value]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label">
+	</td>
+	<td><a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:80px">提交</a>
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label">
+	</td>
+	<td><a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:80px">提交</a>
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="ID">序号：</label>
+	</td>
+	<td><input type="text" name="ID" id="ID" value="<?php echo $newnums ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="ID">序号：</label>
+	</td>
+	<td><input type="text" name="ID" id="ID" value="<?php echo $newnums ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" value="<?php echo $row['my_name'] ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" value="<?php echo $row['my_name'] ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_age">年龄：</label>
+	</td>
+	<td><input type="text" name="my_age" id="my_age" value="<?php echo $row['my_age'] ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="my_age">年龄：</label>
+	</td>
+	<td><input type="text" name="my_age" id="my_age" value="<?php echo $row['my_age'] ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"><?php echo $row['my_some'] ; ?></textarea>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><textarea id="my_some" name="my_some" style="width:800px;height:200px;"><?php echo $row['my_some'] ; ?></textarea>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><input type="text" name="my_note" id="my_note" value="<?php echo $row['my_note'] ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><input type="text" name="my_note" id="my_note" value="<?php echo $row['my_note'] ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'integ'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label">
+	</td>
+	<td><a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:80px">提交</a>
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label">
+	</td>
+	<td><a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:80px">提交</a>
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[form_item ]<tr>
+	<td class="label"><label for="ID">序号：</label>
+	</td>
+	<td><input type="text" name="ID" id="ID" value="<?php echo $id ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+ 2018-12-13 16:12:40 [form_item ]<tr>
+	<td class="label"><label for="ID">序号：</label>
+	</td>
+	<td><input type="text" name="ID" id="ID" value="<?php echo $id ; ?>" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+[/form_item]
+2018-12-13 16:12:40[self_creat_form ]dataListNum:  新表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('测试', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('测试', 'my_question','年龄', 'my_age', 'int', '','', '0','1'),('测试', 'my_question','简介', 'my_some', 'varchar', '','', '0','1'),('测试', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('测试', 'my_question','备注', 'my_note', 'int', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array金额sheetListNum[3]:3  新子表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`)values('测试', 'sheet_my_question','名称', 'name', 'char', '', ''),('测试', 'sheet_my_question','数量', 'num', 'int', '', ''),('测试', 'sheet_my_question','金额', 'amount', 'int', '', '')
+ 进入子表程序 11 sheetnum_4
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_age` int(255) DEFAULT NULL  COMMENT '年龄', `my_some` varchar(1000) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` int(255) DEFAULT NULL  COMMENT '备注',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+name
+名称
+
+num
+数量
+
+amount
+金额
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `name` char(255) DEFAULT NULL  COMMENT '名称', `num` int(255) DEFAULT NULL  COMMENT '数量', `amount` int(255) DEFAULT NULL  COMMENT '金额',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;[/creat_add_form()]
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]
+ 2018-12-13 16:12:40 [self_creat_form ]dataListNum:  新表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('测试', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('测试', 'my_question','年龄', 'my_age', 'int', '','', '0','1'),('测试', 'my_question','简介', 'my_some', 'varchar', '','', '0','1'),('测试', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('测试', 'my_question','备注', 'my_note', 'int', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array金额sheetListNum[3]:3  新子表数据未能登记在数据库: INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`)values('测试', 'sheet_my_question','名称', 'name', 'char', '', ''),('测试', 'sheet_my_question','数量', 'num', 'int', '', ''),('测试', 'sheet_my_question','金额', 'amount', 'int', '', '')
+ 进入子表程序 11 sheetnum_4
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_age` int(255) DEFAULT NULL  COMMENT '年龄', `my_some` varchar(1000) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` int(255) DEFAULT NULL  COMMENT '备注',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+name
+名称
+
+num
+数量
+
+amount
+金额
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `name` char(255) DEFAULT NULL  COMMENT '名称', `num` int(255) DEFAULT NULL  COMMENT '数量', `amount` int(255) DEFAULT NULL  COMMENT '金额',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;[/creat_add_form()]
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]

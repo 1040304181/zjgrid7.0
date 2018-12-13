@@ -1,0 +1,447 @@
+<meta charset='UTF-8'>2018-02-17 12:02:03[self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ] 2018-02-17 13:02:23 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td><textarea id="my_love" name="my_love" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:13 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;<tr>
+	<td class="label"><label for="my_name">姓名：</label>
+	</td>
+	<td><input type="text" name="my_name" id="my_name" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_some">简介：</label>
+	</td>
+	<td><input type="text" name="my_some" id="my_some" class=" easyui-validatebox tb" data-options="required:true,validType:'length[1,255]'"/>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_biao">物资表：</label>
+	</td>
+	<td><table id='my_biao'><tr><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td></tr></table> 
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_note">备注：</label>
+	</td>
+	<td><textarea id="my_note" name="my_note" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+<tr>
+	<td class="label"><label for="my_love">爱好：</label>
+	</td>
+	<td><textarea id="my_love" name="my_love" style="width:800px;height:200px;"></textarea>
+
+	</td>
+</tr>
+
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:31 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:12 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:52 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:14 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_file', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_file` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:54 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_fileqq', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_fileqq` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:50 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_fileqq', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_fileqq` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:31 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_fileqq', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_fileqq` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:01 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_fileqq', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_fileqq` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:51 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_fileqq', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_fileqq` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:38 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_fileqq', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_fileqq` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:27 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_fileqq', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_fileqq` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br> 2018-02-17 13:02:00 [self_creat_form ]已将新表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`,`parameter`,`values`,`sign`,`show`)values('问卷调查表', 'my_question','姓名', 'my_name', 'char', '','', '0','1'),('问卷调查表', 'my_question','文件', 'my_fileqq', 'files', '','', '0','1'),('问卷调查表', 'my_question','简介', 'my_some', 'char', '','', '0','1'),('问卷调查表', 'my_question','物资表', 'my_biao', 'sheets', '','', '0','1'),('问卷调查表', 'my_question','备注', 'my_note', 'varchar', '','', '0','1'),('问卷调查表', 'my_question','爱好', 'my_love', 'mediumtext', '','', '0','1')
+ 进入子表程序 11 sheetnum_0
+ 进入子表程序 11 sheetnum_1
+ 进入子表程序 11 sheetnum_2
+ 进入子表程序 11 sheetnum_3
+ Array名称
+ Array数量
+ Array类型已将新子表数据登记在数据库：INSERT INTO `zj_self_defined_forms` (`formszname`,`formsyname`,`fieldzname`,`fieldyname`,`char_type`)values('问卷调查表', 'sheet_my_question','名称', 'my_sheet_name', 'char'),('问卷调查表', 'sheet_my_question','数量', 'my_sheet_num', 'int'),('问卷调查表', 'sheet_my_question','类型', 'my_sheet_type', 'char')
+ 进入子表程序 11 sheetnum_4
+ 进入子表程序 11 sheetnum_5
+表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_name` char(255) DEFAULT NULL  COMMENT '姓名', `my_fileqq` char(255) DEFAULT NULL  COMMENT '文件', `my_some` char(255) DEFAULT NULL  COMMENT '简介', `my_biao` char(255) DEFAULT NULL  COMMENT '物资表', `my_note` varchar(1000) DEFAULT NULL  COMMENT '备注', `my_love` mediumtext DEFAULT NULL  COMMENT '爱好',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+my_sheet_name
+名称
+
+my_sheet_num
+数量
+
+my_sheet_type
+类型
+
+子表格创建成功 CREATE TABLE IF NOT EXISTS self_my_question_sheet_0( `ID` int(50) NOT NULL AUTO_INCREMENT COMMENT '序号', `my_sheet_name` char(255) DEFAULT NULL  COMMENT '名称', `my_sheet_num` int(255) DEFAULT NULL  COMMENT '数量', `my_sheet_type` char(255) DEFAULT NULL  COMMENT '类型',  `sub` tinyint(1)   DEFAULT NULL  COMMENT '提交', PRIMARY KEY (`ID`) )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
+生成：./self_creat_form/self_my_question_add.php
+生成：./self_creat_form/self_my_question_edit.php
+生成：./self_creat_form/self_my_question_app.php
+生成：./self_creat_form/self_my_question_grid.php
+生成：./self_creat_form/self_my_question_show_form.php
+目录存在
+生成：./self_creat_form/self_my_question_export.php[self_creat_form ]<br><br>
